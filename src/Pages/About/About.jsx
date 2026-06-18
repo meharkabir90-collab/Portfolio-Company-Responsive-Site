@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function About() {
     return(
 <section
-  className="mt-16 w-[95%] mx-auto mb-32 rounded-md
+  className="lg:mt-16 w-[95%] mx-auto mb-32 rounded-md
   shadow-[0_0_10px_rgba(0,0,0,0.25)]
   hover:shadow-[0_0_45px_rgba(56,189,248,0.3)]
   transition-all duration-300"
@@ -62,7 +62,7 @@ function About() {
     </p>
 
     <p
-      className="text-base md:text-lg 
+      className="text-base md:text-lg lg:text-xl
       max-w-4xl text-center leading-relaxed
       hover:text-yellow-500 transition-all duration-300"
     >

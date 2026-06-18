@@ -19,7 +19,7 @@ function App() {
 
     <Routes>
       <Route
-          path= '/hero'
+          path= '/'
           element={
           <Hero />
         }
@@ -55,7 +55,7 @@ function App() {
         />
 
          <Route
-         path= '/*'
+         path= '*'
          element={
               <Error />
          }

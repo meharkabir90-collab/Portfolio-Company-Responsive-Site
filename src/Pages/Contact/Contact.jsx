@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 function Contact() {
 
     return(
-        <div className="mt-16 lg:h-[800px] h-[700px] gap-16 px-4">
+        <div className="lg:mt-16 lg:h-[800px] h-[750px] gap-16 px-4">
             <section className="flex flex-col justify-center items-center">
                 <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl text-white mt-16
                  transition-all duration-300

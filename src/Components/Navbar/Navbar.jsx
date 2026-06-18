@@ -15,7 +15,7 @@ function Navbar() {
               text-white text-lg md:text-xl lg:text-2xl
               gap-8  lg:gap-10 bg-black">
                 <NavLink className="bg-black transition-all duration-300
-                 hover:text-sky-300" to="/hero">Hero</NavLink>
+                 hover:text-sky-300" to="/">Hero</NavLink>
                 <NavLink className="bg-black transition-all duration-300 hover:text-sky-300" to="/about">About me</NavLink>
                 <NavLink className="bg-black transition-all duration-300 hover:text-sky-300"  to="/skill">Skills</NavLink>
                 <NavLink className="bg-black transition-all duration-300 hover:text-sky-300" to="/portfolio">Portfolio</NavLink>

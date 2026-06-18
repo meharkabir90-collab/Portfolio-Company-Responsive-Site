@@ -6,7 +6,7 @@ import weatherReact from '../../assets/weather react.webp'
 function Portfolio() {
     return(
        <div
-  className="mt-16 mb-32 w-[95%] mx-auto rounded-md
+  className="lg:mt-16 mb-32 w-[95%] mx-auto rounded-md
   shadow-[0_0_10px_rgba(0,0,0,0.25)]
   hover:shadow-[0_0_45px_rgba(56,189,248,0.3)]
   transition-all duration-300"
@@ -25,7 +25,7 @@ function Portfolio() {
       className="mt-8 max-w-4xl text-center
       text-base md:text-lg lg:text-xl
       text-white leading-relaxed
-      hover:text-sky-300 transition-all duration-300"
+      hover:text-sky-300 transition-all duration-300 hover:scale-110"
       style={{ fontFamily: "Times New Roman" }}
     >
       My portfolio includes React.js applications, a full-stack

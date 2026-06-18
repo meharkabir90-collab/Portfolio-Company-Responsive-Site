@@ -4,7 +4,7 @@
 function Skills() {
     return(
 <div
-  className="mt-16 mb-32 w-[95%] mx-auto rounded-md
+  className="lg:mt-16 mb-32 w-[95%] h-[1000px]  lg:h-[900px] mx-auto rounded-md
   shadow-[0_0_10px_rgba(0,0,0,0.25)]
   hover:shadow-[0_0_45px_rgba(56,189,248,0.3)]
   transition-all duration-300"
@@ -24,7 +24,7 @@ function Skills() {
       className="max-w-4xl text-center text-white
       text-base md:text-lg lg:text-xl
       leading-relaxed transition-all duration-300
-      hover:text-sky-300"
+      hover:text-sky-300 hover:scale-110"
       style={{ fontFamily: "Times New Roman" }}
     >
       My technical expertise includes MERN Stack development,
@@ -97,7 +97,65 @@ function Skills() {
       </span>
     </div>
   </section>
+
+  {/* Database */}
+  <section
+    className="grid grid-cols-1 lg:grid-cols-[220px_1fr]
+    mt-8 mx-4 md:mx-8 p-4 md:p-6 lg:p-8
+    rounded-xl bg-red-500 shadow-lg
+    gap-6 lg:gap-16"
+  >
+    <div>
+      <h2 className="text-2xl md:text-3xl font-bold text-white bg-red-500">
+        DataBase
+      </h2>
+    </div>
+
+    <div className="flex flex-wrap gap-4 md:gap-6 bg-red-500">
+      <span className="px-3 py-1 rounded-2xl bg-white text-black font-bold">
+        MongoDB
+      </span>
+
+      <span className="px-3 py-1 rounded-2xl bg-white text-black font-bold">
+        Mongoose
+      </span>
+
+      
+    </div>
+  </section>
+
+  {/* Deployment */}
+  <section
+    className="grid grid-cols-1 lg:grid-cols-[220px_1fr]
+    mt-8 mx-4 md:mx-8 p-4 md:p-6 lg:p-8
+    rounded-xl bg-red-500 shadow-lg
+    gap-6 lg:gap-16"
+  >
+    <div>
+      <h2 className="text-2xl md:text-3xl font-bold text-white bg-red-500">
+        Version Control
+      </h2>
+    </div>
+
+    <div className="flex flex-wrap gap-4 md:gap-6 bg-red-500">
+      <span className="px-3 py-1 rounded-2xl bg-white text-black font-bold">
+        Git
+      </span>
+
+      <span className="px-3 py-1 rounded-2xl bg-white text-black font-bold">
+        Github
+      </span>
+
+      <span className="px-3 py-1 rounded-2xl bg-white text-black font-bold">
+        Vercel
+      </span>
+    </div>
+  </section>
 </div>
+
+
+
+
         
 
 

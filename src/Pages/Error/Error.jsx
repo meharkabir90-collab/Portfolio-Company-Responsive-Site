@@ -14,7 +14,7 @@ function ErrorPage() {
       </p>
 
       <a
-        href="/hero"
+        href="/"
         className="mt-8 px-6 py-3 bg-sky-500 rounded-lg font-medium
                    hover:scale-105 hover:bg-sky-600 transition duration-300"
       >
