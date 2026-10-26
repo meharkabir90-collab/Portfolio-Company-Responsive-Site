@@ -55,8 +55,9 @@ function About() {
       hover:text-yellow-500 transition-all duration-300"
     >
       I have practical skills in React.js, Node.js,
-      Express.js, MongoDB, WordPress development,
-      responsive web design, and SEO-optimized websites.
+      Express.js, MongoDB and Devops fundamentals including
+      Git/GitHub, Vercel, Docker and CI/CD Automation,
+       WordPress development, responsive web design, and SEO-optimized websites.
       I enjoy building clean, scalable, and user-friendly
       web applications.
     </p>

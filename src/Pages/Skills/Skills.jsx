@@ -4,7 +4,7 @@
 function Skills() {
     return(
 <div
-  className="lg:mt-16 mb-32 w-[95%] h-[1000px]  lg:h-[900px] mx-auto rounded-md
+  className="lg:mt-16 mb-32 w-[95%] h-auto pb-8 mx-auto rounded-md
   shadow-[0_0_10px_rgba(0,0,0,0.25)]
   hover:shadow-[0_0_45px_rgba(56,189,248,0.3)]
   transition-all duration-300"
@@ -29,8 +29,8 @@ function Skills() {
     >
       My technical expertise includes MERN Stack development,
       React.js frontend applications, backend API development,
-      MongoDB database management, WordPress website development,
-      and SEO-optimized web solutions.
+      MongoDB database management, and DevOps tools for
+      version control, containerization, and deployment.
     </h2>
   </section>
 
@@ -124,7 +124,7 @@ function Skills() {
     </div>
   </section>
 
-  {/* Deployment */}
+  {/* DevOps */}
   <section
     className="grid grid-cols-1 lg:grid-cols-[220px_1fr]
     mt-8 mx-4 md:mx-8 p-4 md:p-6 lg:p-8
@@ -133,7 +133,7 @@ function Skills() {
   >
     <div>
       <h2 className="text-2xl md:text-3xl font-bold text-white bg-red-500">
-        Version Control
+        DevOps
       </h2>
     </div>
 
@@ -143,11 +143,19 @@ function Skills() {
       </span>
 
       <span className="px-3 py-1 rounded-2xl bg-white text-black font-bold">
-        Github
+        GitHub
+      </span>
+
+      <span className="px-3 py-1 rounded-2xl bg-white text-black font-bold">
+        Docker
       </span>
 
       <span className="px-3 py-1 rounded-2xl bg-white text-black font-bold">
         Vercel
+      </span>
+
+      <span className="px-3 py-1 rounded-2xl bg-white text-black font-bold">
+        CI/CD
       </span>
     </div>
   </section>

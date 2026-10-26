@@ -1,6 +1,8 @@
 import Ecommerce from '../../assets/ecom mern.webp'
 import blogReact from '../../assets/react blog.webp'
 import weatherReact from '../../assets/weather react.webp'
+import EcommerceStore from '../../assets/ecommerce.png'
+import HRMS from '../../assets/HRMS.png'
 
 
 function Portfolio() {
@@ -40,7 +42,98 @@ function Portfolio() {
     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
     gap-8 p-4 lg:p-8"
   >
-    {/* Project 1 */}
+
+    
+     {/* Project 1 */}
+    <div
+      className=" rounded-xl p-6
+      flex flex-col items-center text-center
+      shadow-lg hover:shadow-sky-500/30
+      transition-all duration-300"
+    >
+      <h2 className="text-2xl font-bold text-sky-300">
+        Full-Stack Ecommerce Platform
+      </h2>
+
+      <img
+        className="w-full max-w-[100px] h-[120px] mt-4 rounded-md"
+        src={EcommerceStore}
+        alt="MERN Ecommerce"
+      />
+
+      <p
+        className="mt-4 text-white leading-relaxed"
+        style={{ fontFamily: "Times New Roman" }}
+      >
+        A Full-stack e-commerce platform featuring a responsive frontend design, backend API's
+        user authentication and authorization, an admin panel, and database integration for a complete
+        complete online shopping experience.
+      </p>
+
+      <a
+        href="https://github.com/meharkabir90-collab/Ecommerce-Full-Stack-Store-Architecture"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-4 bg-sky-500 text-white
+        px-4 py-2 rounded-lg font-semibold
+        hover:translate-y-1 transition-all duration-300"
+      >
+        GitHub
+      </a>
+      <a
+        href="https://ecommerce-system-architecture.vercel.app/"
+        className='text-white mt-6 bg-sky-500 rounded-lg 
+        px-4 py-2'
+      >
+        View Live Project
+      </a>
+    </div>
+
+     {/* Project 2 */}
+    <div
+      className=" rounded-xl p-6
+      flex flex-col items-center text-center
+      shadow-lg hover:shadow-sky-500/30
+      transition-all duration-300"
+    >
+      <h2 className="text-2xl font-bold text-sky-300">
+        Full-Stack Human Resource Management System (HRMS) Platform
+      </h2>
+
+      <img
+        className="w-full max-w-[100px] h-[120px] mt-4 rounded-md"
+        src={HRMS}
+        alt="HRMS"
+      />
+
+      <p
+        className="mt-4 text-white leading-relaxed"
+        style={{ fontFamily: "Times New Roman" }}
+      >
+        A Full-stack Human Resource Management System (HRMS) platform featuring a responsive frontend design, backend API's
+        user authentication and authorization, an admin panel, and database integration for a complete
+        complete human resource management experience.
+      </p>
+
+      <a
+        href="https://github.com/meharkabir90-collab/hr-system"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-4 bg-sky-500 text-white
+        px-4 py-2 rounded-lg font-semibold
+        hover:translate-y-1 transition-all duration-300"
+      >
+        GitHub
+      </a>
+      <a
+        href="https://hr-system-beta-ochre.vercel.app/"
+        className='text-white mt-6 bg-sky-500 rounded-lg 
+        px-4 py-2'
+      >
+        View Live Project
+      </a>
+    </div>
+    {/* Project 5 */}
     <div
       className=" rounded-xl p-6
       flex flex-col items-center text-center
@@ -77,7 +170,7 @@ function Portfolio() {
       </a>
     </div>
 
-    {/* Project 2 */}
+    {/* Project 6 */}
     <div
       className=" rounded-xl p-6
       flex flex-col items-center text-center
@@ -150,8 +243,11 @@ function Portfolio() {
         GitHub
       </a>
     </div>
+
   </section>
 </div>
+
+
 
 
     );
